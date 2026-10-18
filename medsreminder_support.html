@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MedsReminder – Supporto</title>
+  <style>
+    :root {
+      --bg: #F4F7F5; --surface: #FFFFFF; --text: #16211D;
+      --muted: #51605A; --primary: #1F6E5C; --border: #E3EAE6;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0E1412; --surface: #18211E; --text: #E7EFEB;
+        --muted: #A1B2AA; --primary: #4FBF9F; --border: #2B3833;
+      }
+    }
+    body {
+      margin: 0; background: var(--bg); color: var(--text);
+      font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.55;
+    }
+    main { max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; }
+    nav { display: flex; gap: 12px; margin-bottom: 24px; }
+    nav a {
+      color: var(--primary); text-decoration: none; font-weight: 600;
+      border: 1.5px solid var(--border); border-radius: 999px; padding: 4px 14px;
+    }
+    section {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 16px; padding: 8px 20px 20px; margin-bottom: 24px;
+    }
+    h1 { font-size: 1.6rem; margin: 16px 0 4px; }
+    h2 { font-size: 1.05rem; margin: 24px 0 4px; color: var(--primary); }
+    .contact {
+      border-left: 4px solid var(--primary); padding: 4px 0 4px 12px;
+      font-weight: 600;
+    }
+    a { color: var(--primary); }
+    ul { padding-left: 20px; }
+  </style>
+</head>
+<body>
+<main>
+  <nav>
+    <a href="#it" lang="it">Italiano</a>
+    <a href="#en" lang="en">English</a>
+  </nav>
+
+  <section id="it" lang="it">
+    <h1>Supporto MedsReminder</h1>
+    <p class="contact">Per domande, segnalazioni o suggerimenti scrivi a
+      <a href="mailto:william.soro.dev@gmail.com">william.soro.dev@gmail.com</a>.</p>
+
+    <h2>Non ricevo le notifiche</h2>
+    <ul>
+      <li>Controlla che le notifiche di MedsReminder siano attive nelle
+        impostazioni del telefono: se non lo sono, l'app lo segnala in Home
+        e in Impostazioni → Notifiche.</li>
+      <li>Su Android attiva anche "Sveglie e promemoria" per l'app, ed
+        escludila dal risparmio energetico o dall'ottimizzazione della
+        batteria.</li>
+      <li>Su iPhone controlla che una modalità Full immersion (come "Non
+        disturbare") non le stia silenziando.</li>
+    </ul>
+
+    <h2>Ho cambiato telefono o reinstallato l'app</h2>
+    <ul>
+      <li>Android: con il Backup di Google attivo, i dati tornano da soli
+        reinstallando l'app o configurando il nuovo telefono.</li>
+      <li>iPhone: i dati tornano ripristinando l'intero iPhone dal backup
+        iCloud. Se elimini l'app, invece, i suoi dati vengono cancellati:
+        prima esporta un backup.</li>
+      <li>In ogni caso puoi usare Impostazioni → Backup → Esporta backup, e
+        poi Ripristina da backup sul nuovo telefono.</li>
+    </ul>
+
+    <h2>Come mostro le terapie al medico?</h2>
+    <p>Dalla Home tocca l'icona in alto a destra per il piano terapeutico in
+      PDF; dallo Storico tocca l'icona PDF per il diario delle dosi di un
+      periodo a scelta.</p>
+
+    <h2>Come cancello i miei dati?</h2>
+    <p>Elimina i dati dell'app dalle impostazioni del telefono o
+      disinstallala. I file esportati vanno eliminati dove li hai salvati.</p>
+
+    <h2>Privacy</h2>
+    <p>L'app non raccoglie, non invia e non condivide alcun dato. Dettagli
+      nella <a href="https://trashpandaboy.github.io/trashpandaboy/medsreminder_privacypolicy.html">privacy
+      policy</a>.</p>
+
+    <h2>Avvertenza</h2>
+    <p>MedsReminder è un promemoria: non è un dispositivo medico e non dà
+      consigli medici. Le notifiche possono arrivare in ritardo o non
+      arrivare: non affidarti solo all'app e segui sempre le indicazioni del
+      medico o del farmacista. In caso di emergenza chiama il 112.</p>
+  </section>
+
+  <section id="en" lang="en">
+    <h1>MedsReminder Support</h1>
+    <p class="contact">For questions, bug reports or suggestions, write to
+      <a href="mailto:william.soro.dev@gmail.com">william.soro.dev@gmail.com</a>.</p>
+
+    <h2>I don't get notifications</h2>
+    <ul>
+      <li>Check that MedsReminder's notifications are on in your phone's
+        settings: if they aren't, the app says so on the home screen and in
+        Settings → Notifications.</li>
+      <li>On Android, also allow "Alarms &amp; reminders" for the app, and
+        exclude it from battery saving or battery optimization.</li>
+      <li>On iPhone, check that a Focus mode (such as "Do Not Disturb")
+        isn't silencing them.</li>
+    </ul>
+
+    <h2>I changed phone or reinstalled the app</h2>
+    <ul>
+      <li>Android: with Google Backup on, your data comes back by itself
+        when you reinstall the app or set up the new phone.</li>
+      <li>iPhone: your data comes back when you restore the whole iPhone
+        from its iCloud backup. If you delete the app, though, its data is
+        erased: export a backup first.</li>
+      <li>Either way you can use Settings → Backup → Export backup, then
+        Restore from backup on the new phone.</li>
+    </ul>
+
+    <h2>How do I show my treatments to my doctor?</h2>
+    <p>On the home screen, tap the icon at the top right for your treatment
+      plan as a PDF; in History, tap the PDF icon for the dose diary of any
+      period.</p>
+
+    <h2>How do I delete my data?</h2>
+    <p>Clear the app's data in your phone's settings or uninstall it. Files
+      you exported must be deleted where you saved them.</p>
+
+    <h2>Privacy</h2>
+    <p>The app doesn't collect, send or share any data. Details in the
+      <a href="https://trashpandaboy.github.io/trashpandaboy/medsreminder_privacypolicy.html">privacy
+      policy</a>.</p>
+
+    <h2>Disclaimer</h2>
+    <p>MedsReminder is a reminder: it isn't a medical device and doesn't give
+      medical advice. Notifications may arrive late or not at all: don't rely
+      on the app alone and always follow your doctor's or pharmacist's
+      instructions. In an emergency, call your local emergency number.</p>
+  </section>
+</main>
+</body>
+</html>
